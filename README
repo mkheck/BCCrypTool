@@ -1,0 +1,21 @@
+BCCrypTool: A proof-of-concept utility for sending signed emails from a 
+Java program.
+
+Author:  Mark Heckler
+Email:   mark.heckler@gmail.com
+Twitter: @HecklerMark
+
+In order to compile and run this code, you'll need to obtain the following
+libraries:
+JavaMail (mail.jar)
+JavaBeans Activation Framework (activation.jar) (not required in all cases)
+
+And these Bouncy Castle crypto libraries from http://www.bouncycastle.org:
+
++ bcmail-jdk15on-147.jar
++ bcprov-jdk15on-147.jar
++ bcpkix-jdk15on-147.jar
+
+DISCLAIMER: This code is provided as sample code, as-is, with no warranties 
+either express or implied. Please feel free to take it and use it as you see
+fit, but any results - good or bad - are entirely yours.  :-)
